@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="fi">
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="tyylib.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<title>Leivän leipominen</title>
+  </head>
+  <body>
+	<header>
+		<h1>Kotileipää</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Etusivu</a></li>
+			<li><a href="second.html">Taikinatyyppejä</a></li>
+			<li><a href="third.html">Käytännön asiaa</a></li>
+			<li><a href="fourth.html">Lisätietoa</a></li>
+		</ul>
+	</nav>
+	<p>Tämä sivusto on tehty leipomisesta innostuneiden huviksi ja hyödyksi.</p>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<h2>Linkkejä ja kirjavinkkejä</h2>
+				<h4> Linkkejä</h4>
+				<dl>
+					<dt><a href="https://artisanbreadinfive.com/">Artisan bread in five</a></dt>
+					<dd> Jääkaapissa lepäävän taikinan perusohje ja muita reseptejä ja vinkkejä englanniksi.</dd>
+					<dt><a href="http://www.juurellaleivottu.fi/">Juurella leivottu -blogi</a></dt>
+					<dd> Juurella leivottu -blogista löytyy juurella leipomiseen ohjeita ja ideoita.</dd>
+					<dt><a href="http://www.leipojat.fi/vaalea-hapanleipa-juureen/">Leipojat-sivuston vaalea hapanleipä juureen</a></dt>
+					<dd> Hyvä perusresepti juureen leivotun vaalean leivän leipomiseen. </dd>
+					<dt><a href="http://www.leipojat.fi/ruisleipa-juureen/">Leipojat-sivuston ruisleipä juureen</a></dt>
+					<dd> Juureen leivotun ruisleivän selkeä ohje. </dd>
+				</dl>
+				<h4>Kirjoja</h4>
+				<dl>
+					<dt> Pataleipää, Ina-Janine Johnsen </dt>
+					<dd> Pataleipä-kirja, reseptit toimivat myös ilman pataa leivottaessa. </dd>
+					<dt> Nyt leivotaan, Anneliese ja Gerhard Eckert </dt>
+					<dd> Melko vanha leipäkirja, mutta kivoja ja vähän erilaisia reseptejä. </dd>
+					<dt> Artisan Bread in Five Minutes a Day, Jeff Hertzberg </dt>
+					<dd> Nopeasti sekoitettava taikina, joka on valmis paistettavaksi muutamien tuntien päästä ainesosien sekoituksesta. Taikinat säilyvät yleensä viikon-kaksi. </dd>
+					<dt> Leipävallankumous, Eliisa Kuusela </dt>
+					<dd> Hapanjuureen tehtyä leipää. </dd>
+				</dl>
+			</div>
+		</div>
+	</div>
+	<form>
+		<fieldset>
+			<legend>Haluan lisätietoa</legend>
+			Etunimi:* <input type="text" id="etunimi" placeholder="Etunimi" required>
+			Sukunimi:* <input type="text" id="sukunimi" placeholder="Sukunimi" required >
+			<br>
+			S-posti: * <input type="email" maxlength="50" id="posti" placeholder="Sähköpostiosoite" required>
+			<br>
+			Lisätiedot: <textarea name="tekstikenttä" id="textarea" rows="4" cols="50" placeholder="Halutessasi tilata leipäjuuren, kirjoita osoitteesi tähän"></textarea>
+			<br>
+			<label for="aiheita">Aiheita: </label>
+			<select id="aiheita">
+				<option value="jauhot">Jauhoista</option>
+				<option value="tarvikkeet">Leipomisvälineistä</option>
+				<option value="uuni">Uunista</option>
+				<option value="tavat">Eri tavoista leipoa</option>
+				<option value="muu">Muu</option>
+			</select>
+			<br>
+			Haluan saada uutiskirjeen:
+			<input type="radio" name="kirje" id="kylla" value="kylla"> 
+			<label for="kylla"> Kyllä</label> 
+			<input type="radio" name="kirje" id="ei" value="ei">
+			<label for="ei"> Ei</label>
+			<br>
+			Haluan tilata leipäjuuren:
+			<label for="vehna"><input type="checkbox" name="vehna" id="vehna"> Haluan vehnäjuuren</label>
+			<label for="ruis"><input type="checkbox" name="ruis" id="ruis"> Haluan ruisjuuren</label>
+			<br>
+			<input type="submit" value="Lähetä">
+			<input type="reset">
+		</fieldset>
+	</form>
+	<footer>
+		<p>Harjoitus tekee jauhopeukalon!	&copy; Piia Jouttela</p>
+	</footer>	
+  </body>
+</html>

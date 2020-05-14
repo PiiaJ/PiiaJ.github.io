@@ -1,0 +1,140 @@
+body {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
+.row {
+	color: white;
+	background: black;
+}
+
+h1 {
+	padding: 2%;
+	margin: 2%;
+	text-shadow: 3px 3px 4px #A0522D;
+}
+
+nav { 
+	margin: 2%;
+	padding: 6px;
+	background: #FFE4C4;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline;
+}
+
+li a {
+	color: #A0522D;
+	text-align: center;
+	padding-left: 15px;
+}
+
+li a:hover {
+	color: #D2B48C;
+}
+
+dt a {
+	color: #F5DEB3;
+	text-align: center;
+	padding-left: 15px;
+}
+
+dt a:hover {
+	color: #D2B48C;
+}
+ 
+ p {
+	margin: 2%;
+	padding: 10px;
+ }
+ 
+ h2 {
+	 margin: 10px;
+ }
+ 
+ h3 {
+	 margin: 2%;
+	 padding: 10px;
+ }
+ 
+.center { 
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+#row1 {
+	background-image: url('erilaisia_leipiä.jpg');
+}
+
+.small {
+	display: block;
+	margin: 15%;
+	width: 80%;
+}
+
+.low {
+	transform: rotate(90deg);
+	display: block;
+	margin: auto;
+	width: 50%;
+}
+
+.low2 {
+	transform: rotate(270deg);
+	display: block;
+	margin: auto;
+	width: 50%;
+}
+
+table,th,td	{
+	margin-left: 2%;
+	background-color: #FFE4C4;
+	padding: 10px;
+	border: 3px ridge #A0522D;
+	color: #A0522D;
+	}
+
+form {
+	margin: 2%;
+	padding: 5px;
+	border: 1px solid #A0522D;
+	border-radius: 8px;
+	background-color: #FFE4C4;
+	color: #A0522D;
+	}
+
+input[type=text] {
+	margin:5px;
+	border: 1px solid #A0522D;
+	}
+	
+#textarea { 
+	margin: 5px;
+	border: 1px solid #A0522D;
+	}
+	
+select {
+	border: 1px solid #A0522D;
+	color: #A0522D;
+	}
+
+footer{
+	margin: 2%;
+	padding-left: 10px;
+	background: #FFE4C4;
+	color: #A0522D;
+}
+
+
+	
+
+
